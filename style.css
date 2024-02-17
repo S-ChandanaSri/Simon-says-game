@@ -37,10 +37,11 @@ body{
     height: 200px;
 }
 .center{
-    display: inline-block;
+    
     position: absolute;
-    top:280px;
-    left:670px;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     width: 200px;
     height: 200px;
     border-radius: 100%;
