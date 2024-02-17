@@ -78,7 +78,7 @@ function checkAns(idx){
            
         }
     }else{
-        h2.innerHTML = `game over your score was <b> ${level}</b> </br> press any key to start!`;
+        h2.innerHTML = `game over your score was <b> ${level}</b>  press any key to start!`;
         reset();
         }
 }
