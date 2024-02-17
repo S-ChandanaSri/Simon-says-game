@@ -38,9 +38,10 @@ body{
 }
 .center{
     display: inline-block;
-    position: absolute;
-    top:280px;
-    left:670px;
+    position: fixed;
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Center the element */
     width: 200px;
     height: 200px;
     border-radius: 100%;
